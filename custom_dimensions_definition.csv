@@ -1,0 +1,21 @@
+custom_dimension_name,custom_dimension_description,custom_dimension_scope
+custom_dimension_1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",USER
+custom_dimension_2,"Fusce eget enim consequat, ultrices risus in, sagittis eros.",EVENT
+custom_dimension_3,Donec ultrices urna non urna rutrum laoreet.,ITEM
+custom_dimension_4,Sed non urna in magna elementum malesuada quis id enim,USER
+custom_dimension_5,"Proin eget felis iaculis, commodo lorem ac, vulputate nibh",EVENT
+custom_dimension_6,"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",ITEM
+custom_dimension_7,"Fusce eget enim consequat, ultrices risus in, sagittis eros.",USER
+custom_dimension_8,Donec ultrices urna non urna rutrum laoreet.,EVENT
+custom_dimension_9,Sed non urna in magna elementum malesuada quis id enim,ITEM
+custom_dimension_10,"Proin eget felis iaculis, commodo lorem ac, vulputate nibh",USER
+custom_dimension_11,"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",EVENT
+custom_dimension_12,"Fusce eget enim consequat, ultrices risus in, sagittis eros.",ITEM
+custom_dimension_13,Donec ultrices urna non urna rutrum laoreet.,USER
+custom_dimension_14,Sed non urna in magna elementum malesuada quis id enim,EVENT
+custom_dimension_15,"Proin eget felis iaculis, commodo lorem ac, vulputate nibh",ITEM
+custom_dimension_16,"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",USER
+custom_dimension_17,"Fusce eget enim consequat, ultrices risus in, sagittis eros.",EVENT
+custom_dimension_18,Donec ultrices urna non urna rutrum laoreet.,ITEM
+custom_dimension_19,Sed non urna in magna elementum malesuada quis id enim,USER
+custom_dimension_20,"Proin eget felis iaculis, commodo lorem ac, vulputate nibh",EVENT
