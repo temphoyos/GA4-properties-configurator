@@ -3,7 +3,7 @@ from google.analytics import admin_v1beta
 import pandas
 
 #Manage API credentials
-SERVICE_ACCOUNT_FILE = ''
+SERVICE_ACCOUNT_FILE = 'credentials.file'
 GA4_ADMIN_API_SCOPE = ['https://www.googleapis.com/auth/analytics.edit']
 credentials = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE,scopes=GA4_ADMIN_API_SCOPE)
 print(credentials)
@@ -12,7 +12,7 @@ client = admin_v1beta.AnalyticsAdminServiceClient(credentials=credentials)
 print(client)
 
 #GA4 property info
-PARENT = 'properties/475522842'
+PARENT = 'properties/1234566'
 
 #Generate custom dimension lists from csv
 data = pandas.read_csv('custom_dimensions_definition.csv')
