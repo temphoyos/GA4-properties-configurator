@@ -18,9 +18,30 @@ the used Python libraries :
 [pandas](https://pypi.org/project/pandas/)
 
 ## Steps to implement this development
+### Enable the Google Analytics Admin API and create a Service Account
 Enable the [Google Analytics Admin API](https://developers.google.com/analytics/devguides/config/admin/v1?hl=es_419) in your Google Cloud Project. Create a Service Account within the
 same project and set its permissions accordingly so that it can interact with the GA Admin API (Eg Editor role).
 You will need to enable a JSON credential file within this Service Account and download it to keep it in a safe place.
 Do not share these credentials.
 
 Grant access to this Service Account to the GA4 property you wish to dynamically configure with and editor role.
+
+### Install the Google Auth, GA Admin and pandas Python libraries
+In order to dynamically configure a GA4 property through the Google Cloud GA Admin API, you 
+first need to authenticate yourself with this API. There are several ways to do this and I have 
+chosen to do it with a Service Account credential JSON file for this app. In order to do so, instalation 
+of the google-auth-oauthlib package is necessary. This is done with the following command in your terminal: 
+
+```
+pip install google-auth-oauthlib
+```
+In order to install the google-analytics-admin Python package, execute the following command in your terminal:
+```
+google-analytics-admin
+```
+This app relies on a .csv file stored in the root folder. This .csv file contains the information of the GA4 custom
+dimensions to be dynamically configured. In order to read this .csv file, the pandas library needs to be instaled. 
+This can be done with the following command: 
+```
+pip install pandas
+```
